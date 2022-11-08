@@ -27,7 +27,7 @@ const nextConfig = {
 
       config.cache = false;
 
-      config.output.publicPath = "http://localhost:3502/_next/";
+      config.output.publicPath = "https://micro-frontend-wine.vercel.app/_next/";
       new HtmlWebpackPlugin({
         template: "./public/index.html",
       });
